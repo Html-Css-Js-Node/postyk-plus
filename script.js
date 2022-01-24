@@ -72,7 +72,7 @@ section.style.border = 'thick double #32a1ce';
 let footer = document.getElementById('footer');
 footer.innerHTML = `
 
-<p>C уважением Берлин Андрей.</p>
+<p>C уважением, Берлин Андрей.</p>
 
 `;
 
