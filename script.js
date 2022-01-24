@@ -28,7 +28,7 @@ header {
 let header = document.getElementById("header");
 header.innerHTML = `
 <h1>Программа: Postyk</h1>
-<p>Поменять цвет фона:(например: введите любой цвет по английски.)</p>
+<p>Поменять цвет фона. Например: введите любой цвет по английски:</p>
 <input id="body background">
 
 <button type="button" onclick="createBodyBackground()">OK</button>
@@ -48,12 +48,12 @@ header.innerHTML = `
 
 <button type="button" onclick="createText()">OK</button>
 
-<p>Изменить цвет текста. Например: введите любой цвет по английски.</p>
+<p>Изменить цвет текста. Например: введите любой цвет по английски:</p>
 <input id="colorText">
 
 <button type="button" onclick="createText()">OK</button>
 
-<p>Ваш пост будет в рамке. Сделайте скриншот, вырижте пост в фото-редакторе и поделитесь в соц сетях. </p>
+<p>Ваш пост будет в рамке. Сделайте скриншот, вырежьте пост в фото-редакторе и поделитесь в соц сетях. </p>
 <br>
 `;
 
