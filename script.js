@@ -111,8 +111,9 @@ header.innerHTML = `
          5. Чтобы изменить цвет текста нажмите на "цвет", настройте его и нажмите "ok"
          </label>
          <br>
-         <br>
+        
          <input type="color" id="colorText" name="favcolor" value="#000">
+         <br>
          <br>
          <button type="button" onclick="createText()">OK....</button>
          <br>
