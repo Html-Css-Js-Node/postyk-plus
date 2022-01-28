@@ -145,7 +145,7 @@ p1.style.textAlign = 'right';
 let footer = document.getElementById('footer');
 footer.innerHTML = `
 
-<p>C уважением Берлин Андрей.</p>
+<p>C уважением, Берлин Андрей.</p>
 
 `;
 
