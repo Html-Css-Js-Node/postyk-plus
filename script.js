@@ -81,7 +81,7 @@ header.innerHTML = `
         <br>
         <textarea type='text' id="text" style="width:300px; height:200px;">
         </textarea> 
-
+         <br>
          <button type="button" onclick="createText()">OK.....</button>
          <br>
          <br>
