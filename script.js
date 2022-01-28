@@ -26,7 +26,7 @@ style.innerHTML = `
 
     text-align: center;
     font-size: 20px;
-    padding:10px 0px 0px 0px
+    padding:10px 0px 0px 0px;
 
 
 }
@@ -67,9 +67,9 @@ header.innerHTML = `
             1. Чтобы поменять цвет фона, нажмите на "цвет", настройте его и нажмите "ok":
 
         </label>
-        
+        <br>
         <input type="color" id="body background" name="favcolor" value="#ff0000">
-        
+        <br>
         <button type="button" onclick="createBodyBackground()">OK</button>
         <br>
         <br>
@@ -88,8 +88,10 @@ header.innerHTML = `
          <label for="">
          3. Поменять размер текста, движением ползунка от -> 10px -> 200px:
          <label>
+         <br>
          <input type="range" min="0" name="a" max="200" value="10" step="10" id="font size" >
          <!--output name="x" for="a b"></output-->
+         <br>
          <button type="button" onclick="createText()">OK</button>
          <br>
          <br>
@@ -97,8 +99,9 @@ header.innerHTML = `
          <label for="">
          4. Выравнить текст вправо-влево:
          <label>
+         <br>
          <input type = "range" min='0' max='100' value="10" step='10' id="poziciyaText"  >
-
+         <br>
          <button type="button" onclick="createText()">OK</button>
          <br>
          <br>
@@ -106,9 +109,10 @@ header.innerHTML = `
          <label for="">
          5. Чтобы изменить цвет текста нажмите на "цвет", настройте его и нажмите "ok"
          </label>
-
+         <br>
 
          <input type="color" id="colorText" name="favcolor" value="#000">
+         <br>
          <button type="button" onclick="createText()">OK....</button>
          <br>
          <br>
