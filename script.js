@@ -135,7 +135,7 @@ let section = document.getElementById("section");
 section.innerHTML = `
        
         <p id="inText"></p>
-        <p id ='p1'>@Postyk:)</p>
+        <p id ='p1'>©Postyk:)</p>
 
 `;
 section.style.border = 'thick double #32a1ce';
