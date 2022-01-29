@@ -66,7 +66,7 @@ let header = document.getElementById("header");
 header.innerHTML = `
 <h1>Программа: Postyk</h1>
 <div id="NetWebAppJs">
-<p>Подробности о проекте по ссылке:<a href="https://netwebappjs.github.io"></a>https://netwebappjs.github.io</p>
+<p>Подробности о проекте по ссылке:<a href="https://netwebappjs.github.io"> https://netwebappjs.github.io</a></p>
 
 <?xml version="1.0" encoding="utf-8"?>
 <svg
