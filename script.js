@@ -83,7 +83,7 @@ let header = document.getElementById("header");
 header.innerHTML = `
 <h1>Программа: Postyk</h1>
 <div id="NetWebAppJs">
-<p>Подробности о проекте по ссылке:<a href="https://netwebappjs.github.io"> https://netwebappjs.github.io</a></p>
+
 
 <?xml version="1.0" encoding="utf-8"?>
 <svg
@@ -216,7 +216,7 @@ header.innerHTML = `
 		<tspan x="0.37722316" y="20.194347">Berlin Andrey</tspan>
 	</text>
 </svg>
-
+<p>Подробности о проекте по ссылке:<a href="https://netwebappjs.github.io"> https://netwebappjs.github.io</a></p>
 </div>
 
 <form action="">
