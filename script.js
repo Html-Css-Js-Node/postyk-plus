@@ -249,7 +249,7 @@ header.innerHTML = `
          3. Поменять размер текста, движением ползунка от -> 18px -> 100px:
          <label>
          <br>
-         <input type="range" min="0" name="a" max="100" value="18" step="10" id="font size" >
+         <input type="range" min="18" name="a" max="100" value="18" step="10" id="font size" >
          <!--output name="x" for="a b"></output-->
          <br>
          <button type="button" onclick="createText()">OK</button>
