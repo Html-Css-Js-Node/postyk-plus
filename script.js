@@ -1,3 +1,20 @@
+var shotit = function() {
+    html2canvas(document.getElementById('section'), {
+        onrendered: function(canvas) {
+            document.body.appendChild(canvas);
+            leCanvas = document.getElementsByTagName("canvas")[0];
+            var img = leCanvas.toDataURL("image/png");
+            document.write('<span style="font:14px normal Helvetica, Arial; font-weight: bold; color:#13a6f5; margin-left:16px">the resulted png:</span> <br /><img src="' + img + '"/>');
+        },
+        /*width: 390,
+        height: 220*/
+    });
+}
+
+
+
+
+
 let body = document.getElementById("body");
 body.innerHTML = `
 <style id = "style">
@@ -286,7 +303,11 @@ p1.style.textAlign = 'right';
 
 let footer = document.getElementById('footer');
 footer.innerHTML = `
-
+<br>
+<br>
+<button onClick="shotit()">Сделать скриншот</button>
+<br>
+<br>
 <p>C уважением, Берлин Андрей.</p>
 
 `;
